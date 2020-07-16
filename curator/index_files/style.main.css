@@ -1,0 +1,158 @@
+@media(min-width:528px) {
+    
+    body {
+
+        font-family: "Arial", "Helvetica", sans-serif;
+        width: auto;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+
+    }
+    
+}
+
+@media(max-width:528px) {
+    
+    body {
+
+        font-family: "Arial", "Helvetica", sans-serif;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+
+    }
+    
+}
+
+#main {
+
+  transition: margin-left 0.5s;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+#main1 a {
+
+    color: #474747;
+    font-size: 64px;
+    text-decoration: none;
+    transition: 0.5s all fade-in-out;
+
+}
+
+#main1 a:hover {
+
+    opacity: 50%;
+
+}
+
+#main2 a {
+
+  color: black;
+  text-decoration: underline;
+  font-size: 12px;
+
+}
+
+#main2 a:hover {
+
+  text-decoration: none;
+
+}
+
+#main2 ul li {
+    
+    list-style: none;
+    
+}
+
+#gttBtn {
+
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 36px;
+    font-size: 36px;
+    background: #474747;
+    transition: 0.5s all fade-in-out;
+
+}
+
+#gttBtn:hover {
+
+    color: #333;
+
+}
+
+#wrapper {
+
+  display: block;
+  width: 850px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 10px 17px;
+  -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
+
+}
+
+#keywords {
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#keywords thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+
+#keywords thead tr th { 
+  font-weight: bold;
+  padding: 12px 30px;
+  padding-left: 42px;
+}
+
+#keywords thead tr th span { 
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+  background: #acc8dd;
+}
+
+#keywords thead tr th.headerSortUp span {
+  background-image: url('up-arrow.png');
+}
+
+#keywords thead tr th.headerSortDown span {
+  background-image: url('down-arrow.png');
+}
+
+#keywords tbody tr { 
+  color: #f1f1f1;
+}
+
+#keywords tbody tr td {
+  text-align: center;
+  padding: 15px 10px;
+}
+
+#keywords tbody tr td.lalign {
+  text-align: left;
+}
+
