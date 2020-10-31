@@ -36,41 +36,6 @@
 
 }
 
-#main1 a {
-
-    color: #474747;
-    font-size: 64px;
-    text-decoration: none;
-    transition: 0.5s all fade-in-out;
-
-}
-
-#main1 a:hover {
-
-    opacity: 50%;
-
-}
-
-#main2 a {
-
-	color: black;
-	text-decoration: underline;
-    	font-size: 12px;
-
-}
-
-#main2 a:hover {
-
-	text-decoration: none;
-
-}
-
-#main2 ul li {
-    
-    list-style: none;
-    
-}
-
 #gttBtn {
 
     display: none;
