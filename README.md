@@ -1,2 +1,2 @@
 # Official NotNotJustin Website
-https://www.notnotjustin.ml
+https://www.notnotjustin.xyz
